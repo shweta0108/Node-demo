@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "yargs": "^17.7.2"
+  },
+  "name": "music-shop-api",
+  "version": "1.0.0",
+  "description": "This is a NodeJS api for a music store",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "cli": "node ./cli/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./server/application.js"
+  },
+  "type": "module",
+  "keywords": [
+    "Node",
+    "JS",
+    "Demo",
+    "API"
+  ],
+  "author": "Shweta",
+  "license": "MIT"
+}
